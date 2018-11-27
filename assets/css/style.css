@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    background: #ffffff;
+    background-color:#4aaaa5;
+    border-color: #cccccc;
+    float: left;
+}
+
+h3{
+    background-color:#4aaaa5;
+    float: right;
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #ffffff;
+    border-color: #dddddd;
+    float: clear;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
