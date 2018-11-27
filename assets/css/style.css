@@ -23,10 +23,11 @@ h3{
 }
 
 #h2{
-    
+
 }
 
 body{
+    width: 960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background: #ffffff;
