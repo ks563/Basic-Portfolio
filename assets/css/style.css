@@ -51,6 +51,11 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.info{
+float: left;
+}
+
+
 .clearfix::after {
     content: "";
     clear: both;
