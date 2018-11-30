@@ -47,7 +47,7 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     border-color: #dddddd;
-    background-image: url(./images/tiny-squares.jpg);
+    background-image: url("../../images/tiny-squares.jpg");
     background-color:#ffffff;
     border: 10px;
     margin: 0 auto;
@@ -58,11 +58,11 @@ body{
 
 .content{
     flex: 1 0 auto;
+    background-color:#ffffff;
 }
 
 /* still having issues having the background image show up*/
 .info{
-    background-image: url(./images/tiny-squares.jpg);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
 }
@@ -76,7 +76,6 @@ body{
 
 /* still having issues having the background image show up*/
 .portfolio{
-    background-image: url(./images/tiny-squares.jpg);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
 }
@@ -88,6 +87,7 @@ body{
 
 .info{
     float: left;
+    background-color:#ffffff;
 }
 
 .wireframe{
